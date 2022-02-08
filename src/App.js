@@ -102,21 +102,21 @@ function App() {
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: "",
-    SCAN_LINK: "",
+    CONTRACT_ADDRESS: "0x76021aab4e2d6ce812e8ebc6eb9fe15f2e696080",
+    SCAN_LINK: "https://rinkeby.etherscan.io/token/0x76021aab4e2d6ce812e8ebc6eb9fe15f2e696080",
     NETWORK: {
-      NAME: "",
-      SYMBOL: "",
-      ID: 0,
+      NAME: "Ethereum Rinkeby",
+      SYMBOL: "ETH",
+      ID: 4,
     },
-    NFT_NAME: "",
-    SYMBOL: "",
-    MAX_SUPPLY: 1,
-    WEI_COST: 0,
-    DISPLAY_COST: 0,
-    GAS_LIMIT: 0,
-    MARKETPLACE: "",
-    MARKETPLACE_LINK: "",
+    NFT_NAME: "TESTNFTTESTNFT",
+    SYMBOL: "TNTN",
+    MAX_SUPPLY: 7777,
+    WEI_COST: 40000000000000000,
+    DISPLAY_COST: 0.02,
+    GAS_LIMIT: 285000,
+    MARKETPLACE: "Opensea",
+    MARKETPLACE_LINK: "https://testnets.opensea.io/collection/testnfttestnft",
     SHOW_BACKGROUND: false,
   });
 
@@ -201,9 +201,6 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <a href={CONFIG.MARKETPLACE_LINK}>
-          <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
-        </a>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
