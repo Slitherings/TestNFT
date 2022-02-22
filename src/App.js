@@ -102,7 +102,7 @@ function App() {
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: "0x76021aab4e2d6ce812e8ebc6eb9fe15f2e696080",
+    CONTRACT_ADDRESS: "0xB23C40289B98f41c78F2A45c2B1ac7421c7f3De6",
     SCAN_LINK: "https://rinkeby.etherscan.io/token/0x76021aab4e2d6ce812e8ebc6eb9fe15f2e696080",
     NETWORK: {
       NAME: "Ethereum Rinkeby",
@@ -111,12 +111,12 @@ function App() {
     },
     NFT_NAME: "TESTNFTTESTNFT",
     SYMBOL: "TNTN",
-    MAX_SUPPLY: 7777,
+    MAX_SUPPLY: 50,
     WEI_COST: 40000000000000000,
-    DISPLAY_COST: 0.02,
+    DISPLAY_COST: 0.01,
     GAS_LIMIT: 285000,
     MARKETPLACE: "Opensea",
-    MARKETPLACE_LINK: "https://testnets.opensea.io/collection/testnfttestnft",
+    MARKETPLACE_LINK: "https://testnets.opensea.io/collection/aap-test",
     SHOW_BACKGROUND: false,
   });
 
