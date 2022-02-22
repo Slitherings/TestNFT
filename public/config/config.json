@@ -6,13 +6,13 @@
     "SYMBOL": "ETH",
     "ID": 4
   },
-  "NFT_NAME": "TESTNFTTESTNFT",
-  "SYMBOL": "TNTN",
+  "NFT_NAME": "AAP-TEST",
+  "SYMBOL": "AAP",
   "MAX_SUPPLY": 50,
   "WEI_COST": 40000000000000000,
   "DISPLAY_COST": 0.02,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opensea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/testnfttestnft",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/aap-test",
   "SHOW_BACKGROUND": false
 }
